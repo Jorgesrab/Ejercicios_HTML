@@ -58,3 +58,45 @@
         }
     </style>
 </head>
+<body>
+    <div id="calculator">
+        <form>
+            <input type="text" id="screen" readonly>
+            <button type="button" onclick="addToScreen('7')">7</button>
+            <button type="button" onclick="addToScreen('8')">8</button>
+            <button type="button" onclick="addToScreen('9')">9</button>
+            <button type="button" onclick="addToScreen('/')">/</button>
+            <button type="button" onclick="addToScreen('4')">4</button>
+            <button type="button" onclick="addToScreen('5')">5</button>
+            <button type="button" onclick="addToScreen('6')">6</button>
+            <button type="button" onclick="addToScreen('*')">*</button>
+            <button type="button" onclick="addToScreen('1')">1</button>
+            <button type="button" onclick="addToScreen('2')">2</button>
+            <button type="button" onclick="addToScreen('3')">3</button>
+            <button type="button" onclick="addToScreen('-')">-</button>
+            <button type="button" onclick="addToScreen('0')">0</button>
+            <button type="button" onclick="addToScreen('.')">.</button>
+            <button type="button" onclick="clearScreen()">C</button>
+            <button type="button" onclick="addToScreen('+')">+</button>
+            <button type="button" id="equals" onclick="calculate()">=</button>
+        </form>
+    </div>
+    <script>
+        function addToScreen(value) {
+            document.getElementById('screen').value += value;
+        }
+
+        function clearScreen() {
+            document.getElementById('screen').value = '';
+        }
+
+        function calculate() {
+            var expression = document.getElementById('screen').value;
+            var result = eval(expression);
+            document.getElementById('screen').value = result;
+        }
+        var input = document.getElementById("screen");
+    </script>
+</body>
+</html>
+
