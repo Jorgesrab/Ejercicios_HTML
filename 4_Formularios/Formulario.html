@@ -1,0 +1,46 @@
+
+<html>
+    <head>
+        <title>Formulario</title>
+
+        <script type="text/javascript">   
+        var v1 =prompt("¿como te llamas?");
+        var v2 =parseInt(prompt("introduce un numero"));
+        var v3 =parseInt(prompt("introdeuce otro numero"));
+    
+        var v4 = v3+v2;
+        if (v4>=10){
+        alert( v4 + "es mayor de 10")
+        }else{alert(v4 +" es menor de 10")}
+        </script>
+
+    </head>
+    <body>
+        <form action="pagina.html" method="get">
+    
+           <p>nombre &nbsp;<input type="text" name="nombre" size="20" value= "nombre" disabled /> </p>
+           <p>apellido &nbsp;<input type="text" name="apellido" size="20"  /> </p>
+           <p>contrasenia &nbsp;<input type="password" name="contrasenia" size="20" /> </p>
+           <input type="hidden" value="15">
+                <p>Que juego te gusta mas?</p>
+
+           <p><input type="radio" name="Juegos" value="GTA" /> GTA </p>
+           <p><input type="radio" name="Juegos" value="Fifa23"/>Fifa23</p>
+           <p><input type="radio" name="Juegos" value="Cod"/>Call od duty</p>
+                <p>Que comida te gusta mas?</p>
+           
+           <p><input type="radio" name="comida" value="Tortilla" /> Tortilla </p>
+           <p><input type="radio" name="comida" value="Pasta" /> Pasta </p>
+           <p><input type="radio" name="comida" value="Croquetas" /> Croquetas </p>
+           
+            <p><textarea name="" id="" cols="30" rows="10"></textarea></p>
+           
+           <p><input type="reset" value="borrar"/></p>
+           <p><input type="submit" value="enviar" /></p>
+           <p><input type="button" value="no hago nada"></p>
+            
+
+           
+        </form>
+    </body>
+</html>

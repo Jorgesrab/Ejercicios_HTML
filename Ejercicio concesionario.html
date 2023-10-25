@@ -1,0 +1,53 @@
+<html>
+<head>
+    
+    <title>Ejercicio Concesionario</title>
+    <script type="text/javascript">
+        
+        function calcularPrecio(){
+
+        alert ("Calculadora de precio de coche")
+        var Pinicial = 10000;
+        var llantantas;
+        var gps;
+        var deportivo;
+        while (llantantas != "y") {
+            llantantas = prompt("¿desea llantantas?(y/n)");
+            llantantas = llantantas.toLocaleLowerCase();
+            
+        }
+            Pinicial = Pinicial + 2000
+        gps = prompt("¿desea gps?(y/n)");
+       
+       
+         if (gps == 'y'){
+            Pinicial = Pinicial + 800
+        }else {
+            alert("Puede añadirlo mas tarde")}
+        
+        deportivo = prompt("¿desea el paquete deportivo?(y/n)");
+
+        if (deportivo == 'y'){
+            Pinicial = Pinicial + 5000
+        }else {
+            alert("Puede añadirlo mas tarde")}
+
+        for(var i = 1; i<5;i++)
+            alert(i+" "+"tienes que pagar "+ Pinicial+ " euros");
+        }
+        
+
+
+
+        
+    </script>
+</head>
+<body>
+    <form action="#">
+        <input type="button" value="Ejecutar" onclick="calcularPrecio()" onmouseenter="alert( 'presione el boton' )"/>
+
+
+
+    </form>
+</body>
+</html>
