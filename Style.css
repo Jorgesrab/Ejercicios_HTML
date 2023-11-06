@@ -3,7 +3,37 @@ body {
     background-image: url(Recursos/ezgif.com-gif-maker.gif);
     background-repeat: no-repeat;
     background-size: cover;
+ 
+}
+#fondoTitulo{
+    width: 350px;
+    height: 100px;
+    background-color: rgb(97, 97, 97);
+    position:relative;
+    left: 750px;
+    top:140px;
+    box-shadow: 0 0 10px rgb(165, 165, 165);
+    opacity: 0.8;
+    border-radius: 15px;
+    line-height: 90px;
+    font-size: 40px;
 
-    
-    
+
+}
+h1 {text-align: center;}
+#fondoEntrada{
+
+    width: 600px;
+    height: 250px;
+    background-color: rgb(97, 97, 97);
+    position:relative;
+    left: 625px;
+    top:300px;
+    box-shadow: 0 0 10px rgb(165, 165, 165);
+    opacity: 0.8;
+    border-radius: 15px;
+    line-height: 90px;
+
+
+
 }
