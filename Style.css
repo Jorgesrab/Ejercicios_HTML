@@ -1,8 +1,16 @@
+html{
+    height: 100%;
+ }
+
 body {
 
-    background-image: url(Recursos/ezgif.com-gif-maker.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+    height: inherit;
+    margin: 0;
+    background: linear-gradient(180deg, rgba(0, 191, 255, 1), rgba(0, 0, 0, 1))
+
+
+  
  
 }
 #fondoTitulo{
@@ -25,7 +33,7 @@ h1 {text-align: center;}
 
     width: 600px;
     height: 250px;
-    background-color: rgb(97, 97, 97);
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.5), rgba(255,255, 0, 0.5));
     position:relative;
     left: 625px;
     top:300px;
