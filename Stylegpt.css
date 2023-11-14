@@ -4,7 +4,7 @@ html {
 
 body {
 
-    background-color: #8ca0a0;
+    background-color: #ededf2;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -18,6 +18,8 @@ main {
     height: auto;
     margin: 0 auto;
     background: aliceblue;
+    box-shadow: 0 0 5px #a6aec1;
+    
 }
 
 .lateral {
@@ -33,7 +35,10 @@ main {
     padding: 0 10px;
     height: 100%;
     text-align: justify;
-    background: white;
+    background: #fcfdff;
+    
+    border-radius: 15px;
+    box-shadow: 0 0 5px #a6aec1;
 }
 
 .lateral header {
@@ -41,7 +46,10 @@ main {
     font-size: 1.5rem;
     text-align: center;
     border-bottom: 1px solid black;
-    background: aqua
+    
+    background-color: #cfd5e1;
+    
+    
 }
 
 .lateral ul {
@@ -55,7 +63,7 @@ main {
     position: relative;
     padding: 8px 10px;
     margin-left: 0;
-    border-bottom: 1px solid #060696
+    border-bottom: 1px solid #000000
 }
 
 .lateral ul li a {
@@ -74,6 +82,6 @@ main {
 
 .lateral ul li:hover,
 .lateral ul li:hover a {
-    background: blue;
-    color: rgb(230, 226, 226);
+    background: #cfd5e1;
+   
 }
