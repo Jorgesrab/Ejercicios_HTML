@@ -1,98 +1,135 @@
-html{
-    height: 100%;
- }
+html {
+    height: 1080px;
+}
 
 body {
 
 
-    height: inherit;
-    margin: 0;
-    background-image: url(Recursos/Fondo.jpg);
+
+    background-image: url(Recursos/fondo-creativo-vista-superior-formas-blancas.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
+    overflow: hidden;
+    transform: translate(0px, -100px);
+    
+    
+    
 
 
-  
- 
+
+
 }
-#fondoTitulo{
+
+#fondoTitulo {
     width: 350px;
     height: 100px;
     background-color: rgb(255, 255, 255);
-    position:relative;
+    position: relative;
     left: 750px;
-    top:140px;
-    box-shadow: 0 0 10px rgb(41, 41, 41);
+    top: 140px;
+    box-shadow: 0 0 5px rgb(196, 190, 190);
     opacity: 0.9;
-    
-    border-radius:2px;
+
+    border-radius: 2px;
     line-height: 90px;
     font-size: 40px;
 
 
 }
-h1 {text-align: center;}
-#fondoEntrada{
+
+h1 {
+    text-align: center;
+}
+
+#fondoEntrada {
 
     width: 600px;
     height: 150px;
     background-color: rgb(253, 253, 253);
-    position:relative;
+    position: relative;
     left: 625px;
-    top:300px;
-    box-shadow: 0 0 10px rgb(41, 41, 41);
+    top: 300px;
+    box-shadow: 0 0 5px rgb(196, 190, 190);
     opacity: 0.9;
     border-radius: 2px;
     line-height: 90px;
     text-align: center;
     font-size: large;
-    
+
 }
-#fondoEntradaia1{
+
+#fondoEntradaia1 {
 
     width: 400px;
     height: 150px;
     background-color: rgb(253, 253, 253);
-    position:relative;
+    position: relative;
     left: 150px;
-    top:401px;
-    box-shadow: 0 0 10px rgb(41, 41, 41);
+    top: 424px;
+    box-shadow: 0 0 5px rgb(196, 190, 190);
     opacity: 0.9;
     border-radius: 2px;
     line-height: 90px;
     
-    font-size: large;
-    
+
+    font-size: larger;
+
 }
-#fondoEntradaia2{
+
+#fondoEntradaia2 {
 
     width: 400px;
     height: 150px;
     background-color: rgb(253, 253, 253);
-    position:relative;
+    position: relative;
     left: 700px;
-    top:251px;
-    box-shadow: 0 0 10px rgb(41, 41, 41);
+    top: 251px;
+    box-shadow: 0 0 5px rgb(196, 190, 190);
     opacity: 0.9;
     border-radius: 2px;
     line-height: 90px;
-    text-align: center;
-    font-size: large;
+
     
+    font-size: larger;
+
 }
-#fondoEntradaia3{
+
+#fondoEntradaia3 {
 
     width: 400px;
     height: 150px;
     background-color: rgb(253, 253, 253);
-    position:relative;
-    left: 1200px;
-    top:101px;
-    box-shadow: 0 0 10px rgb(41, 41, 41);
+    position: relative;
+    left: 1250px;
+    top: 79px;
+    box-shadow: 0 0 5px rgb(196, 190, 190);
     opacity: 0.9;
     border-radius: 2px;
     line-height: 90px;
-    text-align: center;
-    font-size: large;
     
+    font-size: larger;
+
+}
+
+.imagenLogo {
+    transform: translate(275px, -195px);
+    
+
+}
+
+.correccionTexto {
+    transform: translate(25px, -80px);
+
+
+}
+
+.oscurecerLogo:hover {
+    filter: brightness(70%);
+    
+
+
+}
+a{
+    text-decoration: none;
+    color: black;
 }
