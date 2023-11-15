@@ -6,12 +6,17 @@
     <link rel="stylesheet" href="Style.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Old+Uyghur&display=swap" rel="stylesheet">
     <title>Index</title>
-    <script type="tex/javascript">
-        var nombre=prompt("Bienvenido a la pagina web, indíqueme su nombre")
-        var experiencica=prompt("¿Has usado inteligencia artificial antes?")
-        alert("Hola "+nombre+" espero que disfrutes de la pagina")
-
-
+    <script type="text/javascript">
+        var nombre = prompt("Bienvenido a la página web, indíqueme su nombre");
+        var suscribir = prompt("Hola " + nombre +
+            ", espero que disfrutes de la página. ¿Deseas suscribirte a nuestro canal de noticias? (si/no)");
+        suscribir = suscribir.toLowerCase();
+        if (suscribir == "si") {
+            var correo = prompt("Introduzca su correo");
+            alert("Correo suscrito al canal de noticias");
+        } else {
+            alert("Perfecto, puedes seguir");
+        }
     </script>
 </head>
 
@@ -28,18 +33,21 @@
 
 
     </div>
-    <div id="fondoEntrada">
+    <div class="fondoEntrada">
         <p>
-            Aqui podras encontrar la mejor informacion sobre inteligencias artificiales
+            Voicify AI es una ia con la que puedes modular voces de famosos para que digan lo quer quiras como en el
+            siguiente ejemplo:
+
         </p>
 
-
-
-
+        <audio src="Recursos/hola-soy-homero-simpson-como-estan.mp3" controls></audio>
+        <a href="https://www.voicify.ai/es" target="_blank">
+            <img src="Recursos/logovocifai.webp" alt="No se pudo cargar la imagen" class="oscurecerLogo">
+        </a>
     </div>
-    
-        <div id="fondoEntradaia1" class="oscurecerLogo">
-            <a href="PaginaChatgpt.html">
+
+    <div id="fondoEntradaia1" class="oscurecerLogo">
+        <a href="PaginaChatgpt.html">
             <h3 style="text-indent: 2em;">
                 Chat GPT:
 
@@ -48,19 +56,19 @@
                 Es el chatbot mas potente
             </p>
 
-            
+
             <img width="100" height="100" src="Recursos/Chatgpt logo.webp" alt="Error al cargar la imagen"
                 class="imagenLogo">
-            </a>
+        </a>
 
 
-        </div>
-    
+    </div>
 
 
-    
-        <div id="fondoEntradaia2" class="oscurecerLogo">
-            <a href="PaginaChatBing.html">
+
+
+    <div id="fondoEntradaia2" class="oscurecerLogo">
+        <a href="PaginaChatBing.html">
             <h3 style="text-indent: 2em;">
                 Bing copilot:
 
@@ -68,21 +76,21 @@
             <p class="correccionTexto">
                 Motor de busqueda con IA
             </p>
-            
-            
+
+
             <img width="100" height="100" src="Recursos\CopilorBingLogo.png" alt="Error al cargar la imagen"
                 class="imagenLogo">
-            </a>
+        </a>
 
 
-        </div>
-    
+    </div>
 
 
 
-    
-        <div id="fondoEntradaia3" class="oscurecerLogo">
-            <a href="PaginaGithubCopilot.html">
+
+
+    <div id="fondoEntradaia3" class="oscurecerLogo">
+        <a href="PaginaGithubCopilot.html">
             <h3 style="text-indent: 2em;">
                 Github copilot:
 
@@ -90,15 +98,15 @@
             <p class="correccionTexto">
                 Assistente de programación
             </p>
-            
-            
+
+
             <img width="100" height="100" src="Recursos/CopilorLogo.png" alt="Error al cargar la imagen"
                 class="imagenLogo">
-            </a>
+        </a>
 
 
-        </div>
-   
+    </div>
+
 </body>
 
 </html>

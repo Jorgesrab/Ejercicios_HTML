@@ -25,7 +25,7 @@ body {
     top: 140px;
     box-shadow: 0 0 5px rgb(196, 190, 190);
     opacity: 0.9;
-
+  
     border-radius: 2px;
     line-height: 90px;
     font-size: 40px;
@@ -37,7 +37,7 @@ h1 {
     text-align: center;
 }
 
-#fondoEntrada {
+.fondoEntrada {
 
     width: 600px;
     height: 150px;
@@ -48,10 +48,23 @@ h1 {
     box-shadow: 0 0 5px rgb(196, 190, 190);
     opacity: 0.9;
     border-radius: 2px;
-    line-height: 90px;
-    text-align: center;
+    
+    border-radius: 15px;
     font-size: large;
 
+}
+.fondoEntrada p{
+    margin: 2cap;
+    position: relative;
+    top: 20px;
+}
+.fondoEntrada audio{
+    position: relative;
+    left: 60px;
+}
+.fondoEntrada img{
+    position: relative;
+    left: 90px;
 }
 
 #fondoEntradaia1 {

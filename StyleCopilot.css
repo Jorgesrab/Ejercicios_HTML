@@ -162,7 +162,7 @@ main {
     box-shadow: 0 0 5px #a6aec1;
     border-radius: 15px;
     width: 450px;
-    height:160px ;
+    height:180px ;
     position: relative;
     left: 28;
     top: -25;
@@ -175,7 +175,7 @@ main {
     box-shadow: 0 0 5px #a6aec1;
     border-radius: 15px;
     width: 450px;
-    height:150px ;
+    height:120px ;
     position: relative;
     left: 28;
     top: -70;
@@ -198,4 +198,9 @@ main {
 }
 .a:hover{
     color: #000000;
+}
+
+.video iframe{
+    height: 200px;
+    width: 200px;
 }
