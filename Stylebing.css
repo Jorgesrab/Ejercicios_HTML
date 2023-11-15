@@ -8,7 +8,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    font-style:oblique;
 
 
 
@@ -20,7 +19,7 @@ main {
     margin: 0 auto;
     background: aliceblue;
     box-shadow: 0 0 5px #a6aec1;
-
+    
 }
 
 .lateral {
@@ -29,6 +28,8 @@ main {
     display: inline-block;
     position: fixed;
     padding-top: 30px
+    
+    
 }
 
 .principal {
@@ -37,7 +38,7 @@ main {
     height: 100%;
     text-align: justify;
     background: #ededf2;
-
+    
     border-radius: 15px;
     box-shadow: 0 0 5px #a6aec1;
 }
@@ -47,10 +48,10 @@ main {
     font-size: 1.5rem;
     text-align: center;
     border-bottom: 1px solid black;
-
+    
     background-color: #cfd5e1;
     box-shadow: 0 0 5px #cfd5e1;
-
+    
 }
 
 .lateral ul {
@@ -87,47 +88,5 @@ main {
 .lateral ul li:hover,
 .lateral ul li:hover a {
     background: #ededf2;
-
-}
-
-.Titulo {
-    width: 430;
-    height: 100;
-    line-height: 95px;
-    text-align: center;
-    font-size: 65;
-    position: relative;
-    top: 60;
-    left: 550;
-    background-color: #cfd5e1d7;
-    box-shadow: 0 0 5px #fafafaa4;
-
-    border-radius: 15px;
-
-}
-
-.imagen img {
-
-    border-radius: 15px;
-    position: relative;
-    top: 220px;
-    left: 40px;
-
-}
-
-.texto{
-
-    background-color: #cfd5e1d7;
-    box-shadow: 0 0 5px #fafafaa4;
-    position: relative;
-    left: 1090px;
-    top: -296px;
-    width: 500px;
-    height: 500;
-    border-radius: 15px;
-
-}
-.texto h2{
-    text-align: center;
-    line-height: 95px;
+   
 }
