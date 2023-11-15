@@ -8,9 +8,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    font-style:oblique;
+   
 
-
+    font-family: 'inter', sans-serif;
 
 }
 
@@ -106,12 +106,17 @@ main {
 
 }
 
-.imagen img {
+.imagen {
+    
 
-    border-radius: 15px;
+    
     position: relative;
-    top: 220px;
+    top: 190px;
     left: 40px;
+
+}
+.imagen img{
+    border-radius: 15px;
 
 }
 
@@ -121,7 +126,7 @@ main {
     box-shadow: 0 0 5px #fafafaa4;
     position: relative;
     left: 1090px;
-    top: -296px;
+    top: -329px;
     width: 500px;
     height: 500;
     border-radius: 15px;
@@ -130,4 +135,67 @@ main {
 .texto h2{
     text-align: center;
     line-height: 95px;
+}
+
+
+
+.texto table{
+    
+    
+    border-collapse: collapse;
+    position: relative;
+    left: 22;
+    top: 14;
+
+    
+    
+}
+
+.texto table td {
+
+    width: 200;
+    
+}
+
+#fonfoTabla{
+    background-color: #fcfdff ;
+    box-shadow: 0 0 5px #a6aec1;
+    border-radius: 15px;
+    width: 450px;
+    height:160px ;
+    position: relative;
+    left: 28;
+    top: -25;
+    
+}
+
+
+.fondoTablaAbajo{
+    background-color: #fcfdff ;
+    box-shadow: 0 0 5px #a6aec1;
+    border-radius: 15px;
+    width: 450px;
+    height:150px ;
+    position: relative;
+    left: 28;
+    top: -70;
+
+}
+
+
+.fondoTablaAbajo p{
+    font-style: normal;
+    font-size:larger;
+    margin: 10;
+    line-height: 1.5;
+
+}
+
+
+#h2correcion{
+    position: relative;
+    top: -40;
+}
+.a:hover{
+    color: #000000;
 }
